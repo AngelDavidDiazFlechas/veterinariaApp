@@ -71,7 +71,7 @@ Partial Class Form1
         Me.panelS.Controls.Add(Me.Label2)
         Me.panelS.Controls.Add(Me.Label1)
         Me.panelS.Controls.Add(Me.PictureBox2)
-        Me.panelS.Location = New System.Drawing.Point(843, 341)
+        Me.panelS.Location = New System.Drawing.Point(800, 336)
         Me.panelS.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.panelS.Name = "panelS"
         Me.panelS.Size = New System.Drawing.Size(623, 462)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cfEzTSuk4beWxWyNFtLSYIxhifyO7TyjWTwusBDLk5RHQ+niQ9lkk+LA0WZMjrLmFW5id1B9fUsXz9XasHGPEA==",
+  "dgSpecHash": "xE/kCStX9f1JouuBnzDpFK5d8BpzgF0De6czS8QBcdweySsQdM72H/0mqZjGaqbUtBEynFjAkjcpQnJQrwHBUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Angel\\source\\repos\\VeterinariasApp\\VeterinariasApp\\VeterinariasApp.vbproj",
+  "projectFilePath": "C:\\Users\\Angel\\Desktop\\proyectovete\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\Angel\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Angel\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
