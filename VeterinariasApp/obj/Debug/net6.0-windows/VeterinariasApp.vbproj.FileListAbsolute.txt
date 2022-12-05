@@ -51,3 +51,5 @@ C:\Users\Angel\Desktop\proyectovete\veterinariaApp\VeterinariasApp\obj\Debug\net
 C:\Users\Angel\Desktop\proyectovete\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.genruntimeconfig.cache
 C:\Users\Angel\Desktop\proyectovete\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\ref\VeterinariasApp.dll
 C:\Users\Angel\Desktop\proyectovete\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.administrador.resources
+C:\Users\Angel\Desktop\proyectovete\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.empleado.resources
+C:\Users\Angel\Desktop\proyectovete\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.veterinario.resources

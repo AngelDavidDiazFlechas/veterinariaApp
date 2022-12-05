@@ -50,12 +50,13 @@ Public Class Form1
                     Case 2
                         MsgBox("Veterinario bienvenido al sistema", vbInformation, "SISTEMA")
                         panelS.Visible = False
-                        administrador.Show()
+                        veterinario.Show()
                         Me.Hide()
                     Case 3
                         MsgBox("Empleado bienvenido al sistema", vbInformation, "SISTEMA")
                         panelS.Visible = False
-                        administrador.Show()
+                        empleado.Show()
+                        Me.Hide()
                     Case Else
                         MsgBox("Los datos digitados no se encuentran en la base de datos", vbInformation, "SISTEMA")
                         panelS.Visible = False
