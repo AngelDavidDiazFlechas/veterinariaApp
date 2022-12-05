@@ -34,7 +34,6 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.FileSystemWatcher1 = New System.IO.FileSystemWatcher()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelS.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,10 +53,11 @@ Partial Class Form1
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Snow
         Me.PictureBox1.Image = Global.VeterinariasApp.My.Resources.Resources.portada
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(99, 48)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(953, 531)
+        Me.PictureBox1.Size = New System.Drawing.Size(726, 374)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
@@ -71,7 +71,7 @@ Partial Class Form1
         Me.panelS.Controls.Add(Me.Label2)
         Me.panelS.Controls.Add(Me.Label1)
         Me.panelS.Controls.Add(Me.PictureBox2)
-        Me.panelS.Location = New System.Drawing.Point(800, 336)
+        Me.panelS.Location = New System.Drawing.Point(784, 382)
         Me.panelS.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.panelS.Name = "panelS"
         Me.panelS.Size = New System.Drawing.Size(623, 462)
@@ -157,10 +157,10 @@ Partial Class Form1
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.VeterinariasApp.My.Resources.Resources.portada
-        Me.PictureBox2.Location = New System.Drawing.Point(16, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 18)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(604, 303)
+        Me.PictureBox2.Size = New System.Drawing.Size(623, 261)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 5
         Me.PictureBox2.TabStop = False
@@ -169,15 +169,6 @@ Partial Class Form1
         '
         Me.FileSystemWatcher1.EnableRaisingEvents = True
         Me.FileSystemWatcher1.SynchronizingObject = Me
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(951, 24)
-        Me.MenuStrip1.TabIndex = 4
-        Me.MenuStrip1.Text = "MenuStrip1"
         '
         'Form1
         '
@@ -188,8 +179,6 @@ Partial Class Form1
         Me.Controls.Add(Me.panelS)
         Me.Controls.Add(Me.ingresar)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -198,7 +187,6 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents ingresar As Button
@@ -213,5 +201,4 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents FileSystemWatcher1 As IO.FileSystemWatcher
-    Friend WithEvents MenuStrip1 As MenuStrip
 End Class

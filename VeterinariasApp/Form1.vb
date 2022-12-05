@@ -1,4 +1,6 @@
 ﻿Imports System.Runtime.Intrinsics.Arm
+Imports System.Windows
+Imports System.Windows.Forms.DataFormats
 Imports MySql.Data.MySqlClient
 Public Class Form1
 
@@ -43,12 +45,17 @@ Public Class Form1
                     Case 1
                         MsgBox("Admisitrador bienvenido al sistema", vbInformation, "SISTEMA")
                         panelS.Visible = False
+                        administrador.Show()
+                        Me.Hide()
                     Case 2
                         MsgBox("Veterinario bienvenido al sistema", vbInformation, "SISTEMA")
                         panelS.Visible = False
+                        administrador.Show()
+                        Me.Hide()
                     Case 3
                         MsgBox("Empleado bienvenido al sistema", vbInformation, "SISTEMA")
                         panelS.Visible = False
+                        administrador.Show()
                     Case Else
                         MsgBox("Los datos digitados no se encuentran en la base de datos", vbInformation, "SISTEMA")
                         panelS.Visible = False
@@ -59,5 +66,9 @@ Public Class Form1
             MsgBox("Error al consultar las credenciales" & ex.Message)
             conexion.Close()
         End Try
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
     End Sub
 End Class
