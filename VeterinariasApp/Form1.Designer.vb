@@ -74,7 +74,7 @@ Partial Class Form1
         Me.panelS.Controls.Add(Me.Label2)
         Me.panelS.Controls.Add(Me.Label1)
         Me.panelS.Controls.Add(Me.PictureBox2)
-        Me.panelS.Location = New System.Drawing.Point(784, 382)
+        Me.panelS.Location = New System.Drawing.Point(789, 382)
         Me.panelS.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.panelS.Name = "panelS"
         Me.panelS.Size = New System.Drawing.Size(623, 462)
@@ -160,7 +160,7 @@ Partial Class Form1
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.VeterinariasApp.My.Resources.Resources.portada
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 18)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 11)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(623, 261)

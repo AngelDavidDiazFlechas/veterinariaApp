@@ -29,7 +29,7 @@ Public Class Form1
         TBclave.Clear()
 
         Try
-            conexion.ConnectionString = "server=127.0.0.1;database=veterinaria;user id=root;password=root;"
+            conexion.ConnectionString = "server=127.0.0.1;database=veterinaria;user id=root;password=;"
             consulta = "SELECT * FROM usuarios WHERE nomusuario = '" & usuario & "' AND contraseña ='" & password & "';"
             conexion.Open()
             dataadapter = New MySqlDataAdapter(consulta, conexion)
