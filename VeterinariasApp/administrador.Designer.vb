@@ -25,6 +25,8 @@ Partial Class administrador
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(administrador))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -36,6 +38,7 @@ Partial Class administrador
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.CerrarSesionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -46,6 +49,8 @@ Partial Class administrador
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Bisque
+        Me.Panel1.Controls.Add(Me.PictureBox5)
+        Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.PictureBox4)
         Me.Panel1.Controls.Add(Me.Button1)
@@ -60,9 +65,28 @@ Partial Class administrador
         Me.Panel1.Size = New System.Drawing.Size(255, 425)
         Me.Panel1.TabIndex = 0
         '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(58, 303)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(26, 24)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 15
+        Me.PictureBox5.TabStop = False
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(95, 303)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 14
+        Me.Button3.Text = "Listar"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(66, 254)
+        Me.Button2.Location = New System.Drawing.Point(96, 262)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 25)
         Me.Button2.TabIndex = 13
@@ -72,7 +96,7 @@ Partial Class administrador
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(28, 253)
+        Me.PictureBox4.Location = New System.Drawing.Point(58, 261)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(26, 26)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -81,7 +105,7 @@ Partial Class administrador
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(66, 210)
+        Me.Button1.Location = New System.Drawing.Point(96, 218)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 25)
         Me.Button1.TabIndex = 11
@@ -91,7 +115,7 @@ Partial Class administrador
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(30, 210)
+        Me.PictureBox3.Location = New System.Drawing.Point(60, 218)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(24, 25)
@@ -102,7 +126,7 @@ Partial Class administrador
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(65, 179)
+        Me.Label2.Location = New System.Drawing.Point(95, 187)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(61, 15)
         Me.Label2.TabIndex = 9
@@ -124,9 +148,9 @@ Partial Class administrador
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(65, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 15)
+        Me.Label1.Size = New System.Drawing.Size(86, 15)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = " Administradorr"
+        Me.Label1.Text = " Administrador"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
@@ -165,6 +189,7 @@ Partial Class administrador
         Me.Text = "administrador"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -185,4 +210,18 @@ Partial Class administrador
     Friend WithEvents Button2 As Button
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents Button3 As Button
+    Friend WithEvents PanelConsultar As Panel
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TBBuscarProducto As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
 End Class
