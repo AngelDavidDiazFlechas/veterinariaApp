@@ -50,7 +50,7 @@ Public Class Form1
                     Case 2
                         MsgBox("Veterinario bienvenido al sistema", vbInformation, "SISTEMA")
                         panelS.Visible = False
-                        veterinario.Show()
+                        FormVet.Show()
                         Me.Hide()
                     Case 3
                         MsgBox("Empleado bienvenido al sistema", vbInformation, "SISTEMA")

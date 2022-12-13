@@ -70,7 +70,6 @@ C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\Veterinar
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.empleado.resources
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.Form1.resources
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.Resources.resources
-C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.veterinario.resources
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.vbproj.GenerateResource.cache
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.AssemblyInfoInputs.cache
@@ -83,6 +82,11 @@ C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\Veterinar
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.genruntimeconfig.cache
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\ref\VeterinariasApp.dll
 C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.FormRegistro.resources
+<<<<<<< HEAD
+C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.FormVet.resources
+C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.FormNuevoC.resources
+C:\Users\harol\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.Form4.resources
+=======
 C:\Users\horac\.NET\veterinariaApp\VeterinariasApp\bin\Debug\net6.0-windows\VeterinariasApp.exe
 C:\Users\horac\.NET\veterinariaApp\VeterinariasApp\bin\Debug\net6.0-windows\VeterinariasApp.deps.json
 C:\Users\horac\.NET\veterinariaApp\VeterinariasApp\bin\Debug\net6.0-windows\VeterinariasApp.runtimeconfig.json
@@ -178,3 +182,7 @@ C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.genru
 C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\ref\VeterinariasApp.dll
 C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.consultarProducto.resources
 C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.listarProductos.resources
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
+>>>>>>> 32b435c9a20c8e16ae2e900af8cac41e8d98bb8b
+C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.Form4.resources
+C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.FormVet.resources

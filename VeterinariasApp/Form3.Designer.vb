@@ -1,9 +1,18 @@
+<<<<<<< HEAD
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FormNuevoC
+    Inherits System.Windows.Forms.Form
+
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+=======
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class NVProducto
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
     <System.Diagnostics.DebuggerNonUserCode()>
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,6 +29,19 @@ Partial Class NVProducto
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
+<<<<<<< HEAD
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TBDireccion = New System.Windows.Forms.TextBox()
+        Me.TBTelefono = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TBNomCliente = New System.Windows.Forms.TextBox()
+=======
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(NVProducto))
@@ -37,11 +59,19 @@ Partial Class NVProducto
         Me.BTCancelar = New System.Windows.Forms.Button()
         Me.BTLimpiar = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.SuspendLayout()
         '
         'Label3
         '
         Me.Label3.AutoSize = True
+<<<<<<< HEAD
+        Me.Label3.Location = New System.Drawing.Point(102, 233)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(70, 20)
+        Me.Label3.TabIndex = 68
+        Me.Label3.Text = "Telefono:"
+=======
         Me.Label3.Location = New System.Drawing.Point(154, 239)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(33, 15)
@@ -56,19 +86,106 @@ Partial Class NVProducto
         Me.Label4.Size = New System.Drawing.Size(69, 15)
         Me.Label4.TabIndex = 18
         Me.Label4.Text = "Descripcion"
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+<<<<<<< HEAD
+        Me.Label2.Location = New System.Drawing.Point(98, 171)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(75, 20)
+        Me.Label2.TabIndex = 67
+        Me.Label2.Text = "Direccion:"
+=======
         Me.Label2.Location = New System.Drawing.Point(151, 157)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(36, 15)
         Me.Label2.TabIndex = 17
         Me.Label2.Text = "Stock"
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         '
         'Label1
         '
         Me.Label1.AutoSize = True
+<<<<<<< HEAD
+        Me.Label1.Location = New System.Drawing.Point(102, 105)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(73, 20)
+        Me.Label1.TabIndex = 66
+        Me.Label1.Text = "Nombres:"
+        '
+        'TBDireccion
+        '
+        Me.TBDireccion.Location = New System.Drawing.Point(206, 168)
+        Me.TBDireccion.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TBDireccion.Name = "TBDireccion"
+        Me.TBDireccion.Size = New System.Drawing.Size(262, 27)
+        Me.TBDireccion.TabIndex = 65
+        '
+        'TBTelefono
+        '
+        Me.TBTelefono.Location = New System.Drawing.Point(205, 230)
+        Me.TBTelefono.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TBTelefono.Name = "TBTelefono"
+        Me.TBTelefono.Size = New System.Drawing.Size(262, 27)
+        Me.TBTelefono.TabIndex = 64
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(403, 307)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(86, 31)
+        Me.Button2.TabIndex = 71
+        Me.Button2.Text = "Cancelar"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(153, 307)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(86, 31)
+        Me.Button1.TabIndex = 70
+        Me.Button1.Text = "Agregar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(246, 45)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(135, 20)
+        Me.Label9.TabIndex = 72
+        Me.Label9.Text = "Registro de Cliente"
+        '
+        'TBNomCliente
+        '
+        Me.TBNomCliente.Location = New System.Drawing.Point(205, 102)
+        Me.TBNomCliente.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TBNomCliente.Name = "TBNomCliente"
+        Me.TBNomCliente.Size = New System.Drawing.Size(262, 27)
+        Me.TBNomCliente.TabIndex = 73
+        '
+        'FormNuevoC
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(624, 386)
+        Me.Controls.Add(Me.TBNomCliente)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.TBDireccion)
+        Me.Controls.Add(Me.TBTelefono)
+        Me.Name = "FormNuevoC"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Nuevo Cliente"
+=======
         Me.Label1.Location = New System.Drawing.Point(151, 119)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(103, 15)
@@ -171,12 +288,23 @@ Partial Class NVProducto
         Me.Name = "NVProducto"
         Me.Text = "Form3"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Label3 As Label
+<<<<<<< HEAD
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TBDireccion As TextBox
+    Friend WithEvents TBTelefono As TextBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label9 As Label
+    Friend WithEvents TBNomCliente As TextBox
+=======
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -191,4 +319,5 @@ Partial Class NVProducto
     Friend WithEvents BTLimpiar As Button
     Friend WithEvents Label6 As Label
     Friend WithEvents CBMascota As ComboBox
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
 End Class

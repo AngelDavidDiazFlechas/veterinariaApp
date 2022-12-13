@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class veterinario
+Partial Class FormVet
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,8 +22,12 @@ Partial Class veterinario
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(veterinario))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormVet))
         Me.Panel1 = New System.Windows.Forms.Panel()
+<<<<<<< HEAD
+        Me.Button4 = New System.Windows.Forms.Button()
+=======
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
@@ -33,7 +37,6 @@ Partial Class veterinario
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -43,7 +46,10 @@ Partial Class veterinario
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+<<<<<<< HEAD
+=======
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,6 +58,7 @@ Partial Class veterinario
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.PictureBox8)
         Me.Panel1.Controls.Add(Me.PictureBox7)
         Me.Panel1.Controls.Add(Me.PictureBox6)
@@ -61,7 +68,6 @@ Partial Class veterinario
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -70,6 +76,23 @@ Partial Class veterinario
         Me.Panel1.Size = New System.Drawing.Size(255, 425)
         Me.Panel1.TabIndex = 5
         '
+<<<<<<< HEAD
+        'Button4
+        '
+        Me.Button4.Image = Global.VeterinariasApp.My.Resources.Resources.Power___Shut_Down2
+        Me.Button4.Location = New System.Drawing.Point(254, -1)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(38, 38)
+        Me.Button4.TabIndex = 8
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.VeterinariasApp.My.Resources.Resources.searchtext
+        Me.PictureBox8.Location = New System.Drawing.Point(49, 413)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(34, 34)
+=======
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.VeterinariasApp.My.Resources.Resources.searchtext
@@ -77,6 +100,7 @@ Partial Class veterinario
         Me.PictureBox8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(30, 26)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 13
         Me.PictureBox8.TabStop = False
@@ -84,10 +108,16 @@ Partial Class veterinario
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.VeterinariasApp.My.Resources.Resources.catsymboladd
+<<<<<<< HEAD
+        Me.PictureBox7.Location = New System.Drawing.Point(49, 353)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(34, 34)
+=======
         Me.PictureBox7.Location = New System.Drawing.Point(43, 265)
         Me.PictureBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(30, 26)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 12
         Me.PictureBox7.TabStop = False
@@ -95,10 +125,16 @@ Partial Class veterinario
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.VeterinariasApp.My.Resources.Resources.teamsales
+<<<<<<< HEAD
+        Me.PictureBox6.Location = New System.Drawing.Point(49, 288)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(34, 34)
+=======
         Me.PictureBox6.Location = New System.Drawing.Point(43, 216)
         Me.PictureBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(30, 26)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 11
         Me.PictureBox6.TabStop = False
@@ -106,50 +142,82 @@ Partial Class veterinario
         'PictureBox5
         '
         Me.PictureBox5.Image = Global.VeterinariasApp.My.Resources.Resources.femaleapprove
+<<<<<<< HEAD
+        Me.PictureBox5.Location = New System.Drawing.Point(49, 225)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(34, 34)
+=======
         Me.PictureBox5.Location = New System.Drawing.Point(43, 169)
         Me.PictureBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(30, 26)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 10
         Me.PictureBox5.TabStop = False
         '
         'Button5
         '
+<<<<<<< HEAD
+        Me.Button5.Location = New System.Drawing.Point(89, 415)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(142, 29)
+        Me.Button5.TabIndex = 9
+        Me.Button5.Text = "Consultar Mascota"
+=======
         Me.Button5.Location = New System.Drawing.Point(78, 311)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(124, 22)
         Me.Button5.TabIndex = 9
         Me.Button5.Text = "Consultar Macota"
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button3
         '
+<<<<<<< HEAD
+        Me.Button3.Location = New System.Drawing.Point(95, 354)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(121, 29)
+=======
         Me.Button3.Location = New System.Drawing.Point(83, 266)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(106, 22)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.Button3.TabIndex = 7
         Me.Button3.Text = "Nueva Mascota"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
         '
+<<<<<<< HEAD
+        Me.Button2.Location = New System.Drawing.Point(89, 293)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(138, 29)
+=======
         Me.Button2.Location = New System.Drawing.Point(78, 220)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(121, 22)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Cliente Existente"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
+<<<<<<< HEAD
+        Me.Button1.Location = New System.Drawing.Point(96, 226)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(121, 29)
+=======
         Me.Button1.Location = New System.Drawing.Point(84, 170)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 22)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Nuevo Cliente"
         Me.Button1.UseVisualStyleBackColor = True
@@ -157,12 +225,18 @@ Partial Class veterinario
         'Label1
         '
         Me.Label1.AutoSize = True
+<<<<<<< HEAD
+        Me.Label1.Location = New System.Drawing.Point(210, 8)
+=======
         Me.Label1.Location = New System.Drawing.Point(192, 2)
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(29, 15)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Salir"
         '
+<<<<<<< HEAD
+=======
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.VeterinariasApp.My.Resources.Resources.cerrars
@@ -174,6 +248,7 @@ Partial Class veterinario
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -215,7 +290,11 @@ Partial Class veterinario
         Me.PictureBox4.TabIndex = 7
         Me.PictureBox4.TabStop = False
         '
+<<<<<<< HEAD
+        'FormVet
+=======
         'veterinario
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -224,16 +303,24 @@ Partial Class veterinario
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Panel1)
+<<<<<<< HEAD
+        Me.Name = "FormVet"
+        Me.Text = "FormVet"
+=======
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "veterinario"
         Me.Text = "veterinario"
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+<<<<<<< HEAD
+=======
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -243,7 +330,6 @@ Partial Class veterinario
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label3 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
@@ -256,4 +342,5 @@ Partial Class veterinario
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents Button4 As Button
 End Class
