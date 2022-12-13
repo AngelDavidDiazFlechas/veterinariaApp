@@ -16,9 +16,12 @@
     <Compile Update="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="Form4.vb">
       <SubType>Form</SubType>
     </Compile>
+=======
+>>>>>>> 748988119652c47256ea8661c3db71cc4af9c6e5
     <Compile Update="veterinario.vb">
       <SubType>Form</SubType>
     </Compile>

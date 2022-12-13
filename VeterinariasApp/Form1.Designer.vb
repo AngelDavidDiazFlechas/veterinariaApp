@@ -43,10 +43,10 @@ Partial Class Form1
         'ingresar
         '
         Me.ingresar.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ingresar.Location = New System.Drawing.Point(409, 456)
+        Me.ingresar.Location = New System.Drawing.Point(358, 342)
         Me.ingresar.Margin = New System.Windows.Forms.Padding(0)
         Me.ingresar.Name = "ingresar"
-        Me.ingresar.Size = New System.Drawing.Size(94, 29)
+        Me.ingresar.Size = New System.Drawing.Size(82, 22)
         Me.ingresar.TabIndex = 1
         Me.ingresar.Text = "Ingresar"
         Me.ingresar.UseVisualStyleBackColor = False
@@ -58,9 +58,10 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.BackColor = System.Drawing.Color.Snow
         Me.PictureBox1.Image = Global.VeterinariasApp.My.Resources.Resources.portada
-        Me.PictureBox1.Location = New System.Drawing.Point(99, 48)
+        Me.PictureBox1.Location = New System.Drawing.Point(87, 36)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(726, 374)
+        Me.PictureBox1.Size = New System.Drawing.Size(635, 280)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
@@ -74,10 +75,9 @@ Partial Class Form1
         Me.panelS.Controls.Add(Me.Label2)
         Me.panelS.Controls.Add(Me.Label1)
         Me.panelS.Controls.Add(Me.PictureBox2)
-        Me.panelS.Location = New System.Drawing.Point(789, 382)
-        Me.panelS.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.panelS.Location = New System.Drawing.Point(690, 286)
         Me.panelS.Name = "panelS"
-        Me.panelS.Size = New System.Drawing.Size(623, 462)
+        Me.panelS.Size = New System.Drawing.Size(545, 346)
         Me.panelS.TabIndex = 3
         Me.panelS.Visible = False
         '
@@ -85,10 +85,9 @@ Partial Class Form1
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button2.Location = New System.Drawing.Point(356, 407)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button2.Location = New System.Drawing.Point(312, 305)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(86, 31)
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "Cancelar"
         Me.Button2.UseVisualStyleBackColor = False
@@ -97,10 +96,9 @@ Partial Class Form1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(209, 407)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button1.Location = New System.Drawing.Point(183, 305)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(86, 31)
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "Iniciar"
         Me.Button1.UseVisualStyleBackColor = False
@@ -109,21 +107,19 @@ Partial Class Form1
         '
         Me.TBclave.BackColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.TBclave.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.TBclave.Location = New System.Drawing.Point(245, 349)
-        Me.TBclave.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TBclave.Location = New System.Drawing.Point(214, 262)
         Me.TBclave.Name = "TBclave"
         Me.TBclave.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TBclave.Size = New System.Drawing.Size(279, 27)
+        Me.TBclave.Size = New System.Drawing.Size(245, 23)
         Me.TBclave.TabIndex = 4
         '
         'TBNusuario
         '
         Me.TBNusuario.BackColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.TBNusuario.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.TBNusuario.Location = New System.Drawing.Point(245, 280)
-        Me.TBNusuario.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TBNusuario.Location = New System.Drawing.Point(214, 210)
         Me.TBNusuario.Name = "TBNusuario"
-        Me.TBNusuario.Size = New System.Drawing.Size(279, 27)
+        Me.TBNusuario.Size = New System.Drawing.Size(245, 23)
         Me.TBNusuario.TabIndex = 3
         '
         'Label3
@@ -131,9 +127,9 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.Label3.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label3.Location = New System.Drawing.Point(88, 352)
+        Me.Label3.Location = New System.Drawing.Point(77, 264)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(94, 20)
+        Me.Label3.Size = New System.Drawing.Size(76, 15)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = " Contraseña: "
         '
@@ -142,28 +138,27 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label2.Location = New System.Drawing.Point(88, 283)
+        Me.Label2.Location = New System.Drawing.Point(77, 212)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(140, 20)
+        Me.Label2.Size = New System.Drawing.Size(112, 15)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Nombre de usuario:"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(256, 4)
+        Me.Label1.Location = New System.Drawing.Point(224, 3)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 20)
+        Me.Label1.Size = New System.Drawing.Size(90, 15)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "INICIAR SESION"
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.VeterinariasApp.My.Resources.Resources.portada
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 11)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 8)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(623, 261)
+        Me.PictureBox2.Size = New System.Drawing.Size(545, 196)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 5
         Me.PictureBox2.TabStop = False
@@ -175,13 +170,14 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Window
-        Me.ClientSize = New System.Drawing.Size(951, 533)
+        Me.ClientSize = New System.Drawing.Size(832, 400)
         Me.Controls.Add(Me.panelS)
         Me.Controls.Add(Me.ingresar)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

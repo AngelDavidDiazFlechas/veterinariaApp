@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harol\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj": {}
+    "C:\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\harol\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj": {
+    "C:\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harol\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj",
+        "projectUniqueName": "C:\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj",
         "projectName": "VeterinariasApp",
-        "projectPath": "C:\\Users\\harol\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj",
-        "packagesPath": "C:\\Users\\harol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harol\\veterinariaApp\\VeterinariasApp\\obj\\",
+        "projectPath": "C:\\veterinariaApp\\VeterinariasApp\\VeterinariasApp.vbproj",
+        "packagesPath": "C:\\Users\\horac\\.nuget\\packages\\",
+        "outputPath": "C:\\veterinariaApp\\VeterinariasApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\harol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\horac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
