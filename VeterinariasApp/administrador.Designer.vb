@@ -37,6 +37,8 @@ Partial Class administrador
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.CerrarSesionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.BTEliminar = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -44,11 +46,14 @@ Partial Class administrador
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Bisque
+        Me.Panel1.Controls.Add(Me.BTEliminar)
+        Me.Panel1.Controls.Add(Me.PictureBox6)
         Me.Panel1.Controls.Add(Me.PictureBox5)
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Button2)
@@ -68,7 +73,7 @@ Partial Class administrador
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(58, 303)
+        Me.PictureBox5.Location = New System.Drawing.Point(59, 330)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(26, 24)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -77,7 +82,7 @@ Partial Class administrador
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(95, 303)
+        Me.Button3.Location = New System.Drawing.Point(96, 330)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 14
@@ -86,7 +91,7 @@ Partial Class administrador
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(96, 262)
+        Me.Button2.Location = New System.Drawing.Point(97, 288)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 25)
         Me.Button2.TabIndex = 13
@@ -96,7 +101,7 @@ Partial Class administrador
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(58, 261)
+        Me.PictureBox4.Location = New System.Drawing.Point(59, 287)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(26, 26)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -105,7 +110,7 @@ Partial Class administrador
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(96, 218)
+        Me.Button1.Location = New System.Drawing.Point(97, 244)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 25)
         Me.Button1.TabIndex = 11
@@ -115,7 +120,7 @@ Partial Class administrador
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(60, 218)
+        Me.PictureBox3.Location = New System.Drawing.Point(61, 244)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(24, 25)
@@ -126,9 +131,10 @@ Partial Class administrador
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(95, 187)
+        Me.Label2.Font = New System.Drawing.Font("Showcard Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Location = New System.Drawing.Point(56, 180)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 15)
+        Me.Label2.Size = New System.Drawing.Size(116, 20)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Productos"
         '
@@ -146,7 +152,7 @@ Partial Class administrador
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(65, 20)
+        Me.Label1.Location = New System.Drawing.Point(76, 30)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(86, 15)
         Me.Label1.TabIndex = 1
@@ -156,7 +162,7 @@ Partial Class administrador
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.VeterinariasApp.My.Resources.Resources.administrador
-        Me.PictureBox1.Location = New System.Drawing.Point(65, 38)
+        Me.PictureBox1.Location = New System.Drawing.Point(65, 60)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(106, 88)
@@ -178,6 +184,25 @@ Partial Class administrador
         Me.CerrarSesionToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.CerrarSesionToolStripMenuItem.Text = "Cerrar Sesion"
         '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
+        Me.PictureBox6.Location = New System.Drawing.Point(60, 369)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(26, 24)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 16
+        Me.PictureBox6.TabStop = False
+        '
+        'BTEliminar
+        '
+        Me.BTEliminar.Location = New System.Drawing.Point(97, 370)
+        Me.BTEliminar.Name = "BTEliminar"
+        Me.BTEliminar.Size = New System.Drawing.Size(75, 23)
+        Me.BTEliminar.TabIndex = 17
+        Me.BTEliminar.Text = "Eliminar"
+        Me.BTEliminar.UseVisualStyleBackColor = True
+        '
         'administrador
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -195,6 +220,7 @@ Partial Class administrador
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ContextMenuStrip1.ResumeLayout(False)
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -224,4 +250,6 @@ Partial Class administrador
     Friend WithEvents TBBuscarProducto As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents BTEliminar As Button
+    Friend WithEvents PictureBox6 As PictureBox
 End Class

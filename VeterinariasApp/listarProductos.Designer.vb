@@ -22,41 +22,62 @@ Partial Class listarProductos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(listarProductos))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TBTraerp = New System.Windows.Forms.Button()
+        Me.DGVProductos = New System.Windows.Forms.DataGridView()
+        Me.BTExcel = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.DGVProductos, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(336, 43)
+        Me.Label1.Location = New System.Drawing.Point(272, 49)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(173, 45)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Productos"
         '
-        'DataGridView1
+        'TBTraerp
         '
-        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.GridColor = System.Drawing.SystemColors.Highlight
-        Me.DataGridView1.Location = New System.Drawing.Point(120, 100)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 25
-        Me.DataGridView1.Size = New System.Drawing.Size(575, 283)
-        Me.DataGridView1.TabIndex = 5
+        Me.TBTraerp.Location = New System.Drawing.Point(148, 341)
+        Me.TBTraerp.Name = "TBTraerp"
+        Me.TBTraerp.Size = New System.Drawing.Size(109, 25)
+        Me.TBTraerp.TabIndex = 6
+        Me.TBTraerp.Text = "Listar productos"
+        Me.TBTraerp.UseVisualStyleBackColor = True
         '
-        'Button1
+        'DGVProductos
         '
-        Me.Button1.Location = New System.Drawing.Point(712, 208)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(76, 44)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Listar productos"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.DGVProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGVProductos.Location = New System.Drawing.Point(114, 138)
+        Me.DGVProductos.Name = "DGVProductos"
+        Me.DGVProductos.RowTemplate.Height = 25
+        Me.DGVProductos.Size = New System.Drawing.Size(509, 166)
+        Me.DGVProductos.TabIndex = 7
+        '
+        'BTExcel
+        '
+        Me.BTExcel.Location = New System.Drawing.Point(455, 341)
+        Me.BTExcel.Name = "BTExcel"
+        Me.BTExcel.Size = New System.Drawing.Size(130, 23)
+        Me.BTExcel.TabIndex = 8
+        Me.BTExcel.Text = "Exportar a excel"
+        Me.BTExcel.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(559, 49)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(64, 64)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabStop = False
         '
         'listarProductos
         '
@@ -64,19 +85,24 @@ Partial Class listarProductos
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.BTExcel)
+        Me.Controls.Add(Me.DGVProductos)
+        Me.Controls.Add(Me.TBTraerp)
         Me.Controls.Add(Me.Label1)
         Me.Name = "listarProductos"
         Me.Text = "listarProductos"
         Me.TransparencyKey = System.Drawing.Color.Transparent
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGVProductos, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Button1 As Button
+    Friend WithEvents TBTraerp As Button
+    Friend WithEvents DGVProductos As DataGridView
+    Friend WithEvents BTExcel As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

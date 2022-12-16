@@ -1,5 +1,11 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports System.Data.Common
+Imports MySql.Data.MySqlClient
 Public Class administrador
+    Dim conexion As New MySqlConnection
+    Dim dataadapter As MySqlDataAdapter
+    Dim dataset As New DataSet
+    Dim datareader As MySqlDataReader
+    Dim consulta As String
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -13,7 +19,7 @@ Public Class administrador
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        NVProducto.Show()
+        agregarProducto.Show()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -22,5 +28,10 @@ Public Class administrador
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         listarProductos.Show()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles BTEliminar.Click
+        eliminarProducto.Show()
+
     End Sub
 End Class

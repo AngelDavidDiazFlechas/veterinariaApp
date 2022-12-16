@@ -186,3 +186,7 @@ C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.lista
 >>>>>>> 32b435c9a20c8e16ae2e900af8cac41e8d98bb8b
 C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.Form4.resources
 C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.FormVet.resources
+C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.agregarProducto.resources
+C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.vbproj.ResolveComReference.cache
+C:\veterinariaApp\VeterinariasApp\obj\Debug\net6.0-windows\VeterinariasApp.eliminarProducto.resources
